@@ -2,8 +2,6 @@
 
 # **Amazon USA Sales Analysis Project**
 
-### **Difficulty Level: Advanced**
-
 ---
 
 ## **Project Overview**
@@ -264,15 +262,6 @@ WHERE customer_id NOT IN (SELECT
 					DISTINCT customer_id
 				FROM orders
 				);
-```
-```sql
--- Approach 2
-SELECT *
-FROM customers as c
-LEFT JOIN
-orders as o
-ON o.customer_id = c.customer_id
-WHERE o.customer_id IS NULL
 ```
 
 6. Least-Selling Categories by State
