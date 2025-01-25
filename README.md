@@ -251,12 +251,10 @@ ORDER BY year, month
 
 5. Customers with No Purchases
 Find customers who have registered but never placed an order.
-Challenge: List customer details and the time since their registration.
+Challenge: List customer details 
 
 ```sql
-Approach 1
 SELECT *
-	-- reg_date - CURRENT_DATE
 FROM customers
 WHERE customer_id NOT IN (SELECT 
 					DISTINCT customer_id
