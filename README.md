@@ -1,6 +1,6 @@
 ---
 
-# **Amazon USA Sales Analysis Project**
+# **Amazon Sales Analysis Project**
 
 ---
 
